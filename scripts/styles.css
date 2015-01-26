@@ -1,0 +1,102 @@
+
+/* -------------------------- header start -------------------------- */
+
+#mainHeader {
+padding: 10px 25px 0 50px;
+height: 250px;
+background-image: url("../images/green_green.jpg");
+}
+
+#mainHeader p{
+font-size:21px;
+font-weight:200;
+}
+
+#contactMe div p{
+font-weight: bold;
+color: #DDBBAA;
+padding-top: 5px;
+padding-left: 5px;
+}
+
+#contactMe div{
+width: 120px;
+height: 30px;  
+margin-left: 93%;
+}
+
+#contactMe{
+height: 30px;  
+align: right;
+margin-top: 50px;
+background-color: #025D79;
+}
+
+#contactLink:link{
+color: #C9C9B0;
+text-decoration: none;
+}
+
+#contactLink:visited{
+color: #C9C9B0;
+text-decoration: none;
+}
+
+#contactLink:hover{
+color: #DEEA2E;
+text-decoration: none;
+}
+
+#bannerTitle{
+color: #333333;
+font-size:63px;
+font-weight:200;
+}
+
+#breadcrums {
+padding: 0 0;
+
+}
+
+/* -------------------------- header end -------------------------- */
+
+
+/*--------------------- footer start --------------------------- */
+
+#preFooter {
+background-color: #3D494C  ; /*#025D79;*/
+height: 150px;
+}
+
+#footerMenu{
+padding-top: 3px;
+color: #01824A;
+  text-align: center;
+background-color: #012D3A; /*#013C2C;*/
+height: 30px;
+}
+
+#footer{
+color: #CCCCCC;
+  text-align: center;
+  font-size: 10px;
+  padding-top: 10px;
+background-color: #2B2B2B  ;/*#005566;*/
+height: 30px;
+}
+
+.footerM:link{
+color: #01824A;
+}
+
+.footerM:visited{
+color: #028D64;
+text-decoration: none;
+}
+
+.footerM:hover{
+color: #FFF1D6;
+text-decoration: none;
+}
+
+/*--------------------- footer end --------------------------- */
