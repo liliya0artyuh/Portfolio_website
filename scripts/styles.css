@@ -1,5 +1,27 @@
-
+body {
+border: solid 1px red;
+}
 /* -------------------------- header start -------------------------- */
+
+
+#topNavBar {
+padding: 0 0;
+margin: 0 0;
+}
+#logoBig {
+float: left;
+padding: 5px 15px 0  5px ;
+}
+
+#myName {
+color: white;
+padding: 5px 5px 0  10px ;
+}
+#siteName {
+width: 180px;
+float: left;
+}
+
 
 #mainHeader {
 padding: 10px 25px 0 50px;
@@ -20,9 +42,10 @@ padding-left: 5px;
 }
 
 #contactMe div{
-width: 120px;
+    position: absolute;
+    right: 0px;
+    width: 100px;
 height: 30px;  
-margin-left: 93%;
 }
 
 #contactMe{
@@ -65,15 +88,31 @@ padding: 0 0;
 
 #preFooter {
 background-color: #3D494C  ; /*#025D79;*/
+height: 50px;
+}
+
+#footerSiteMap{
+padding-top: 3px;
+color: #01824A;
+background-color: #012D3A; /*#013C2C;*/
 height: 150px;
 }
 
-#footerMenu{
-padding-top: 3px;
-color: #01824A;
-  text-align: center;
-background-color: #012D3A; /*#013C2C;*/
-height: 30px;
+#SiteMapContainer {
+ margin-left: auto;
+    margin-right: auto;
+width: 70%;
+}
+
+#SiteMapContainer div{
+padding: 5px;
+width: 20%;
+b order: solid 1px red;
+float: left;
+}
+
+.SiteMapSubTitle {
+font-size: smaller;
 }
 
 #footer{
@@ -84,6 +123,19 @@ color: #CCCCCC;
 background-color: #2B2B2B  ;/*#005566;*/
 height: 30px;
 }
+
+#copyrightStatement   {
+    position: absolute;
+    right: 0px;
+    width: 200px;
+    }
+
+#stayConnected {
+margin-left: auto;
+marging-right: auto;
+width: 70%;
+}
+
 
 .footerM:link{
 color: #01824A;
@@ -100,3 +152,8 @@ text-decoration: none;
 }
 
 /*--------------------- footer end --------------------------- */
+
+
+#businessCard {
+padding-left: 5%;
+}
